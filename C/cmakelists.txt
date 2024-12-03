@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(AOC2024)
+
+file(GLOB_RECURSE sources src/*.c src/*.h)
+
+add_executable(AOC2024 ${sources})

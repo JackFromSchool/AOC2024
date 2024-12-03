@@ -1,0 +1,9 @@
+/CMakeFiles
+.ninja_deps
+.ninja_log
+build.ninja
+
+*.cmake
+*.exe
+*.pdb
+input.txt
