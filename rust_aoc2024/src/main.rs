@@ -1,6 +1,7 @@
 use rust_aoc2024::day1;
 use rust_aoc2024::day2;
 use rust_aoc2024::day3;
+use rust_aoc2024::day4;
 
 fn main() {
     println!("Rust AOC2024!");
@@ -13,4 +14,7 @@ fn main() {
     println!("Day3:");
     println!("Part1 - {}", day3::part1(include_str!("./inputs/day3.txt")));
     println!("Part2 - {}", day3::part2(include_str!("./inputs/day3.txt")));
+    println!("Day4:");
+    println!("Part1 - {}", day4::part1(include_str!("./inputs/day4.txt")));
+    println!("Part2 - {}", day4::part2(include_str!("./inputs/day4.txt")));
 }
